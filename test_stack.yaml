@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Sample template to be deployed'
+
+Resources:
+  SampleBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub '${AWS::AccountId}-sample-bucket-${AWS::Region}'
+
+Outputs:
+  BucketName:
+    Description: Name of the sample bucket
+    Value: !Ref SampleBucket
