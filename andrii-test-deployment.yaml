@@ -1,1 +1,3 @@
-
+template-file-path: test_stack.yaml
+parameters: {}
+tags: {}
