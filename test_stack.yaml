@@ -5,7 +5,7 @@ Resources:
   SampleBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub '${AWS::AccountId}-sample-bucket-${AWS::Region}'
+      BucketName: !Sub '${AWS::AccountId}-sample-bucket-${AWS::Region}-temp'
 
 Outputs:
   BucketName:
