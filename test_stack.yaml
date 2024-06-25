@@ -9,5 +9,5 @@ Resources:
 
 Outputs:
   BucketName:
-    Description: Name of the sample bucket
+    Description: Name of the sample bucket1
     Value: !Ref SampleBucket
